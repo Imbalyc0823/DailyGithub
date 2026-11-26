@@ -1,0 +1,9 @@
+# 采集缓存（原始 HTML / README / 未处理配图），可随时删掉重新采集
+tools/.cache/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+
+# WorkBuddy 工作区数据（本地助手数据，不公开）
+.workbuddy/

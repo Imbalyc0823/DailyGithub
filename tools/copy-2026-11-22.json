@@ -1,0 +1,94 @@
+{
+  "ScottSloan/Bili23-Downloader": {
+    "tag": "跨平台 B 站视频下载器",
+    "intro": "开源、免费、跨平台的 B 站视频下载工具，支持多线程加速、音视频分离、弹幕元数据与字幕获取，可自定义命名规则与分类归档。README 明确限定仅作个人学习研究、非商业使用。"
+  },
+  "maotoumao/MusicFree": {
+    "tag": "插件化无广告音乐播放器",
+    "intro": "一个插件化、可定制、无广告的免费音乐播放器，目前覆盖 Android 与 HarmonyOS。音乐源以插件形式接入，界面与功能都能自行改造，不内嵌任何曲库。"
+  },
+  "HIllya51/LunaTranslator": {
+    "tag": "视觉小说实时翻译器",
+    "intro": "面向视觉小说的翻译工具：内置文本 HOOK、OCR、剪贴板等多种取词方式，再接上在线或本地翻译引擎，让原文在游戏窗口旁实时变成中文。"
+  },
+  "521xueweihan/GitHub520": {
+    "tag": "一条 hosts 修好 GitHub",
+    "intro": "GitHub 图片裂开、加载慢，多半是域名解析的问题。这个项目持续维护一份可用的 hosts 记录，附各平台刷新脚本与自动更新方案，不用装任何软件。"
+  },
+  "auto-novel/auto-novel": {
+    "tag": "轻小说自动机翻网站",
+    "intro": "轻小说机翻机器人：自动抓取网络小说与文库小说，调用翻译服务生成中文版本并在线阅读，也支持导入本地文件翻译，适合追更日文轻小说。"
+  },
+  "halo-dev/halo": {
+    "tag": "从博客到官网的建站工具",
+    "intro": "强大易用的开源建站工具，从个人博客、知识库到企业官网、在线商城都能覆盖。插件与主题生态成熟，一条 Docker 命令即可拉起完整站点。"
+  },
+  "Rockyzsu/stock": {
+    "tag": "30 天量化交易入门",
+    "intro": "一份「30 天掌握量化交易」的实践项目：从行情数据获取、指标计算、策略回测到模拟实盘逐步推进，配套 A 股数据接口与可运行的示例代码。"
+  },
+  "langbot-app/LangBot": {
+    "tag": "多平台 IM 机器人平台",
+    "intro": "生产级的多平台智能机器人开发平台，把大模型接到 QQ、微信、飞书、Discord、Telegram 等聊天平台，内置插件、知识库、工作流与 Web 管理面板。"
+  },
+  "qjfoidnh/BaiduPCS-Go": {
+    "tag": "命令行版百度网盘",
+    "intro": "仿 Linux shell 命令的百度网盘命令行客户端，在原版基础上补充了分享链接与秒传链接转存，支持多线程上传下载，适合在服务器上批量搬运文件。"
+  },
+  "timqian/chinese-independent-blogs": {
+    "tag": "中文独立博客清单",
+    "intro": "一份仍在更新的中文独立博客列表，按主题收录个人博客与技术站点，并提供 opml 订阅。在大家都搬去公众号之后，这里是「自己域名自己排版」的那一撮人。"
+  },
+  "iDvel/rime-ice": {
+    "tag": "开箱即用的 Rime 词库",
+    "intro": "雾凇拼音：开箱即用的简体中文 Rime 配置，含全拼与双拼方案、长期维护的精校词库和详尽注释，适配小狼毫、鼠须管、Fcitx5 等几乎所有 Rime 前端。"
+  },
+  "fmz200/wool_scripts": {
+    "tag": "代理工具配置与规则集",
+    "intro": "收集 Loon、Surge、QuantumultX、ShadowRocket、Egern 等工具的配置与去广告规则，每份配置开头都写了使用说明，可直接引用为远程规则。"
+  },
+  "backnotprop/plannotator": {
+    "tag": "给代理产出加一层审阅",
+    "intro": "编码代理的「审阅层」：Claude Code、Codex、Copilot CLI、Gemini CLI 等产出计划、原型与变体后，在本地浏览器里逐条批注、取舍、放行，让人始终留在回路里。"
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+    "tag": "把 Web 最佳实践教给代理",
+    "intro": "Modern Web Guidance 的源仓库，把 Web 平台能力、最佳实践与浏览器兼容数据做成代理技能，让编码助手不再照抄过期写法，而是用上现代 API。"
+  },
+  "alibaba/open-code-review": {
+    "tag": "阿里开源的 AI 代码评审",
+    "intro": "阿里内部打磨两年的 AI 代码评审 CLI：服务过数万开发者、识别出数百万缺陷后开源。配置一个模型端点即可接入现有评审流程，按仓库规范给出意见。"
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+    "tag": "让代理用上 Chrome DevTools",
+    "intro": "以 MCP Server 和 CLI 两种形式，把 Chrome DevTools 交给编码代理：控制并检查真实浏览器，做可靠自动化、深度调试与性能分析，而不是盲写代码。"
+  },
+  "tradermonty/claude-trading-skills": {
+    "tag": "给交易员的代理技能集",
+    "intro": "面向股票投资者与交易员的 Claude Code 技能集，把行情分析、财报解读、交易计划与盘后复盘拆成可复用技能，让代理按固定流程处理投研工作。"
+  },
+  "ag-ui-protocol/ag-ui": {
+    "tag": "代理与前端的通用协议",
+    "intro": "开放的轻量事件协议，标准化「代理 ↔ 用户界面」之间的连接：状态同步、流式输出、工具调用与人机协同都走同一套事件，前端不必为每个代理重写适配。"
+  },
+  "meta/astryx": {
+    "tag": "为人机协作准备的设计系统",
+    "intro": "Meta 开源的设计系统，基于 React 19 与 StyleX，面向「人与代理一起写界面」的工作方式：组件与主题可整体定制，代理改样式也不会撞坏设计规范。目前为 Beta。"
+  },
+  "pookjw/HermesEnabler": {
+    "tag": "给任意手表装爱马仕表盘",
+    "intro": "让任意 Apple Watch 用上爱马仕表盘：在 macOS 上侧载预编译 IPA，或直接用 Xcode 构建安装。需要 iPhone 与手表配对，且 watchOS 版本在支持范围内。"
+  },
+  "we-promise/sure": {
+    "tag": "自托管的个人财务面板",
+    "intro": "个人财务应用：账户、交易、预算与净资产在一屏内看清，支持自托管、数据留在自己手里。它接续了已归档的 Maybe Finance，继续走开源路线。"
+  },
+  "dream-num/univer": {
+    "tag": "把 Office 能力嵌进产品",
+    "intro": "可嵌入自家产品的 Office SDK：表格、文档、演示、关系表、画布与 PDF 的编辑、计算、协同与文件处理，人和代理共用同一套数据与权限。"
+  },
+  "kajisho5/ffmpeg-skill": {
+    "tag": "代理本地剪片并自检",
+    "intro": "面向编码代理的本地视频剪辑技能：42 个 FFmpeg 工具覆盖剪切、字幕、转码，剪完自动生成带检查项与时间线的审阅页，全过程不上云、不需要 API Key。"
+  }
+}

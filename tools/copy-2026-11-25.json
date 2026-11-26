@@ -1,0 +1,147 @@
+{
+ "_note": "两个榜单、36 个位次，和昨天一模一样：中文榜 20 位没换，全球榜 16 位也没换。真正在动的是数字——CLI-Anything 从 +790 提到 +1,074，app-store-compliance 从 +761 到 +928，diagram-design 从 +620 到 +802，而榜首 Claude-BugHunter 从 +2,029 回落到 +1,826。位次有惯性，速度没有。",
+ "aoaostar/legado": {
+  "tag": "书源与排版配置",
+  "intro": "「阅读」App 的小说书源、订阅源、主题与排版配置合集。GitHub 仓库本身不能一键导入，得进配套站点 legado.aoaostar.com 逐条添加。今日中文榜第一，+173。"
+ },
+ "higress-group/higress": {
+  "tag": "Wasm 插件网关",
+  "intro": "基于 Istio 与 Envoy 的 API 网关，插件用 Go/Rust/JS 写成 Wasm，官方备了几十个通用插件和一个能直接试的控制台。README 顶栏把 MCP Server 快速上手排在了文档前面。"
+ },
+ "ruanyf/weekly": {
+  "tag": "周五发刊的周刊",
+  "intro": "每周五发刊的科技周刊，当周值得读的文章、工具与资源都放在 issue 里征稿和发布。十万八千星，这份「个人周刊」在中文技术圈活得最久。"
+ },
+ "krahets/hello-algo": {
+  "tag": "动画图解算法书",
+  "intro": "给新手的数据结构与算法教程，动画图解配可运行代码，简中、繁中、英、日四语并行，代码实现覆盖十几种语言。十三万星，仍是中文算法入门的第一站。"
+ },
+ "sngyai/Sequoia-X": {
+  "tag": "收盘后自动选股",
+  "intro": "A 股量化选股系统，V2 按 OOP 与向量化计算重写。行情走 baostock（免费、不用注册、不限流）存进本地 SQLite，绕开东财的反爬，收盘后自动跑完把结果推进飞书群。"
+ },
+ "521xueweihan/HelloGitHub": {
+  "tag": "每月 28 号的月刊",
+  "intro": "每月 28 号发刊的开源月刊，每期挑入门级项目、开源书与实战工程，官网和公众号两条阅读路径。十九万星，今日中文榜涨得最猛。"
+ },
+ "wanglin2/mind-map": {
+  "tag": "可嵌入的导图库",
+  "intro": "仓库分两半：开源的 JavaScript 思维导图库，能直接嵌进自己的项目；桌面客户端闭源。逻辑结构图、时间轴、鱼骨图这些结构都支持，导出格式也齐。"
+ },
+ "d2l-ai/d2l-zh": {
+  "tag": "第二版中文教材",
+  "intro": "《动手学深度学习》中文第二版：概念、背景、数学与代码在同一章讲完，notebook 全部可跑。中英文版被 70 多个国家 500 多所大学拿去做教材。"
+ },
+ "XIU2/CloudflareSpeedTest": {
+  "tag": "挑出最快的 CDN IP",
+  "intro": "Cloudflare 把 IP 段全公开了，但哪一段对国内访客好用只能自己测。这个工具批量压延迟与下载速度，从 IPv4/IPv6 里挑出最快的几个写进配置，也支持别的 CDN。"
+ },
+ "fanmingming/live": {
+  "tag": "台标与直播源",
+  "intro": "电视与广播的台标图标库，顺带维护 IPTV 播放列表与配套工具，全部可直连、IPv4/IPv6 双栈。README 里主要是使用说明，图都放在仓库外。"
+ },
+ "hiroi-sora/Umi-OCR": {
+  "tag": "不联网也能识字",
+  "intro": "离线 OCR：截屏、批量导图、整份 PDF 都能读，还能剔除水印与页眉页脚、识别或生成二维码。多国语言模型内置，不联网可用；Windows 上也能走 Scoop 装。"
+ },
+ "zhayujie/CowAgent": {
+  "tag": "会攒记忆的个人 Agent",
+  "intro": "从 chatgpt-on-wechat 长出来的个人 Agent：主动拆任务、调工具与 MCP，靠长期记忆、知识库和自我演化慢慢认识你。自我定位是 Agent Harness，多模型多渠道，一行命令装。"
+ },
+ "rebase-network/who-is-hiring": {
+  "tag": "免费招聘信息墙",
+  "intro": "Rebase 社区维护的招聘墙，区块链与其他行业的团队都能免费发 JD——开一个 issue 填上岗位，链接就自动挂到页面上，也会同步到社区各渠道。"
+ },
+ "jeecgboot/JeecgBoot": {
+  "tag": "一句话生成系统",
+  "intro": "AI 低代码平台，主打低代码、AI 应用平台与知识库三件套。AI Skills 用一句自然语言生成建表 SQL、前后端代码、菜单权限与 BPM 流程，生成即可运行；权限、多租户、报表大屏开箱即用。"
+ },
+ "xushengfeng/eSearch": {
+  "tag": "截图之后还能干嘛",
+  "intro": "Electron 写的截图工具，Information-portal 的重写版。截完能离线 OCR、翻译、以图搜图、贴图、录屏、万向滚动截屏，Windows/Linux/macOS 三平台都有包。"
+ },
+ "pymumu/smartdns": {
+  "tag": "本地 DNS 择优",
+  "intro": "本地 DNS 服务器，支持 DoT/DoH/DoQ，按测速结果把域名解析到最快的那个 IP，顺手还能拦广告。路由器上跑一份，全屋设备都受益。"
+ },
+ "jaywcjlove/linux-command": {
+  "tag": "600 多条命令速查",
+  "intro": "六百多条 Linux 命令的手册、详解与示例，配一个没有广告的查询站。内容来自网络与网友补充，作者说明不保证完全正确——当速查表用刚好。"
+ },
+ "JoeanAmier/TikTokDownloader": {
+  "tag": "抖音作品采集",
+  "intro": "抖音与 TikTok 的作品下载、账号数据采集工具。不想本地配环境，可以 Fork 仓库走 GitHub Actions 自动构建打包；Cookie 怎么取，文档里单独写了一篇。"
+ },
+ "xifangczy/cat-catch": {
+  "tag": "把页面资源列出来",
+  "intro": "猫抓：把当前页面加载的音视频与图片资源列成清单，筛一遍再下载。Chrome、Edge、Firefox 都有得装，抓流媒体时比开 DevTools 翻 Network 快。"
+ },
+ "xfangfang/wiliwili": {
+  "tag": "掌机上的 B 站",
+  "intro": "第三方 B 站客户端，跑在 PC 全平台、PSVita、PS4、Xbox 与 Switch 上，触屏、键鼠、手柄都能操作。首页、动态、直播、番剧各页齐全，深浅主题跟着系统走。"
+ },
+ "elementalsouls/Claude-BugHunter": {
+  "tag": "给 Claude 装挖洞技能",
+  "intro": "一个丢进 Claude Code 就能用的技能包：84 个 skill、15 条斜杠命令，按 24 类漏洞整理了 681 份已公开报告的套路，另附企业身份与基础设施攻击矩阵。装上之后它守着 scope 干活。今日全球榜第一，24 小时净增 1,677 星。"
+ },
+ "obra/superpowers": {
+  "tag": "先问清楚再动手",
+  "intro": "给编码 Agent 的一套开发方法论：一看到你在造东西，Agent 不会直接开写，而是先退一步问清你到底要什么，再沿一组可组合的 skill 走完设计、实现与验证。三十二万星。"
+ },
+ "HKUDS/CLI-Anything": {
+  "tag": "让软件长出手脚",
+  "intro": "把图形界面软件包一层 CLI，Agent 就能直接调它。配套 CLI-Hub 可浏览、安装社区做的 CLI，pip 一行装好；想贡献自己的，提个 PR 就能上架。今日 +1,074，比昨天又快了两百多。"
+ },
+ "jingyaogong/minimind": {
+  "tag": "两小时训个 64M 模型",
+  "intro": "从零手写一个 64M 参数 LLM 的完整流程，单卡两小时跑得完。预训练、SFT、LoRA 各在哪一步、各在做什么都摊开讲，想搞懂大模型的最小闭环，这是最短的一条路。"
+ },
+ "cursor/plugins": {
+  "tag": "Cursor 插件规范",
+  "intro": "Cursor 的插件规范与官方插件库：每个插件是根目录下一个独立文件夹，带 .cursor-plugin/plugin.json 清单。想把自己的工具接进 Cursor，照这个结构抄一份就行。"
+ },
+ "firecrawl/firecrawl": {
+  "tag": "把网页变成干净文本",
+  "intro": "一个 API 打通搜索、抓取与 550 多个数据源，输出干净 markdown 喂给模型。仓库里是本地版与自托管服务的代码，外加各语言 SDK。二十万星，Agent 的数据管道标配。"
+ },
+ "nginx/nginx": {
+  "tag": "NGINX 官方源码",
+  "intro": "NGINX 从 Mercurial 搬上 GitHub 后开的官方仓库。世界上最常用的 Web 服务器，兼反向代理、负载均衡、API 网关与内容缓存，二条款 BSD 类许可证，issue 与 PR 终于有了统一去处。"
+ },
+ "openvinotoolkit/openvino": {
+  "tag": "把模型压到 CPU/NPU",
+  "intro": "Intel 主导的推理优化与部署工具包，把训好的模型压到 CPU、核显与 NPU 上跑。文档里备了速查表与关键特性清单，PyPI、npm、conda、brew 都有包。"
+ },
+ "cathrynlavery/diagram-design": {
+  "tag": "不套模板的画图 skill",
+  "intro": "给编码 Agent 的画图技能：产出单个自包含的 HTML + SVG 文件，52 种图表类型，按你的品牌配色。立场直接写在标题里——不要阴影，不要 Mermaid 那股味。今日 +802，比昨天涨得快。"
+ },
+ "mvanhorn/last30days-skill": {
+  "tag": "按点赞排序的搜索",
+  "intro": "让 Agent 去 Reddit、X、YouTube、HN、Polymarket 上扒最近 30 天的讨论，按点赞、转发与真实下注金额排序，而不是编辑推荐，再合成一份带出处的结论。README 有十种语言版本。"
+ },
+ "google-labs-code/stitch-skills": {
+  "tag": "Stitch 的设计 skill",
+  "intro": "Google Stitch 的 Agent Skills 合集，遵循 Agent Skills 开放标准，Codex、Antigravity、Gemini CLI、Claude Code、Cursor、OpenCode 都能用，附一条命令装齐全套的脚本。"
+ },
+ "mjmirza/app-store-compliance": {
+  "tag": "上架前先自查",
+  "intro": "124 条 App Store 与 Google Play 的真实拒审原因与改法，加隐私清单与数据安全自查，还盯着 112 个合规截止日（EU AI Act、DSA、COPPA 等）。README 说得很直白：扫描能证明什么、哪些还得人来判断，它不保证过审。"
+ },
+ "Tracer-Cloud/opensre": {
+  "tag": "流水线挂了先查日志",
+  "intro": "开源的 CI/CD 可靠性 Agent：流水线挂掉后先去翻日志定位根因，而不是让人从头 grep 起。安装文档按平台分开写，Windows 单独一篇。"
+ },
+ "toeverything/AFFiNE": {
+  "tag": "文档白板二合一",
+  "intro": "Notion 与 Miro 的开源替代：文档、白板、数据库放在同一块画布上，写、画、排三件事不用换工具。本地优先、可自托管，隐私放在第一位。"
+ },
+ "XiaoYouChR/Ghost-Downloader-3": {
+  "tag": "一个下载器走天下",
+  "intro": "从帮 B 站 UP 主整理资源起家的下载器，现在四个平台都能跑，BT、磁力、直链几乎通吃，还长出了 Feature Packs 插件生态。今日 +1,092，全球榜涨幅第二。"
+ },
+ "zhouxiaoka/autoclip": {
+  "tag": "一条链接剪出短片",
+  "intro": "本地优先的 AI 剪辑桌面工具：贴一个长视频链接，自动切出短视频，配字幕、封面与标题，适配抖音、小红书、TikTok、Reels 与 Shorts。MIT 协议，切片与渲染都在本机跑，今日 +980。"
+ }
+}

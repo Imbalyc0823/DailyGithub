@@ -1,0 +1,150 @@
+{
+ "aoaostar/legado": {
+  "tag": "「阅读」书源合集",
+  "intro": "为「阅读」App 维护的小说书源与订阅源集合，另附主题与排版配置。仓库本身不支持一键导入，需到配套站点 legado.aoaostar.com 逐条添加。"
+ },
+ "higress-group/higress": {
+  "tag": "云原生 AI 网关",
+  "intro": "基于 Istio 与 Envoy 的云原生 API 网关，可用 Go/Rust/JS 写 Wasm 插件扩展。内置数十个开箱即用插件与一套控制台，适合做 AI 流量的统一入口。"
+ },
+ "ruanyf/weekly": {
+  "tag": "阮一峰的科技周刊",
+  "intro": "每周五更新的科技爱好者周刊，汇集当周值得一读的文章、工具与资源，投稿走 issue。星标十万加，是中文技术圈持续时间最长的个人周刊之一。"
+ },
+ "krahets/hello-algo": {
+  "tag": "动画图解数据结构",
+  "intro": "《Hello 算法》：用动画图解加可运行代码讲数据结构与算法，覆盖简中、繁中、英、日四种语言，附十余种编程语言实现，新手友好且完全免费。"
+ },
+ "sngyai/Sequoia-X": {
+  "tag": "收盘后自动选股推飞书",
+  "intro": "面向 A 股的量化选股系统，用向量化计算扫描多种技术形态，收盘后自动跑一遍并把结果推到飞书群。数据走 baostock，落本地 SQLite，绕开反爬。"
+ },
+ "521xueweihan/HelloGitHub": {
+  "tag": "每月推荐入门级开源项目",
+  "intro": "每月 28 号发布的开源月刊，挑有趣、入门级的项目与开源书籍、实战工程，帮新手用很短时间摸到开源的门。今日榜单里涨幅最猛的中文项目。"
+ },
+ "wanglin2/mind-map": {
+  "tag": "开源思维导图",
+  "intro": "思维导图工具 SimpleMindMap：开源部分是 JavaScript 库，可嵌进自己的项目；配套桌面客户端为闭源软件。支持多种结构、主题与导出格式。"
+ },
+ "1c7/chinese-independent-developer": {
+  "tag": "独立开发者产品清单",
+  "intro": "一份中国独立开发者作品清单，收录打开即用的网站与 App，标注作者与状态。想看看别人业余在做什么、或想把自己的项目加进去，都从这里开始。"
+ },
+ "d2l-ai/d2l-zh": {
+  "tag": "可运行的中文深度学习教材",
+  "intro": "《动手学深度学习》中文版：概念、背景、数学与代码在同一处讲清，中英文版被 70 多个国家 500 多所大学用于教学，全部 notebooks 可运行。"
+ },
+ "XIU2/CloudflareSpeedTest": {
+  "tag": "测出最快的 CF IP",
+  "intro": "Cloudflare 分给内地访客的 IP 常常又慢又丢包。这个工具批量测延迟与速度，从公开 IP 段里挑出最适合自己的那个，也支持其他 CDN 与多解析站点。"
+ },
+ "fanmingming/live": {
+  "tag": "可直连的台标库",
+  "intro": "电视与广播的台标图标库及配套工具，支持 IPv4/IPv6 双栈直连访问。给自建直播源配图标时，能省掉到处找图、改尺寸这一步。"
+ },
+ "hiroi-sora/Umi-OCR": {
+  "tag": "免费离线截图识字",
+  "intro": "开源免费的离线 OCR 软件：截屏识别、批量导图、PDF 识别都能做，可排除水印与页眉页脚，还能扫码与生成二维码，内置多国语言库。"
+ },
+ "zhayujie/CowAgent": {
+  "tag": "会自己攒记忆的 Agent",
+  "intro": "开源的个人 AI 助手：主动拆解任务、调用工具与技能，通过长期记忆、知识库和自我进化慢慢熟悉你。支持多模型、多通道，一行命令安装。"
+ },
+ "rebase-network/who-is-hiring": {
+  "tag": "免费发布的招聘信息墙",
+  "intro": "Rebase 社区维护的招聘信息仓库，区块链及其他行业团队都可免费发 JD，提 issue 后信息会自动同步到社区各渠道，长期免费。"
+ },
+ "jeecgboot/JeecgBoot": {
+  "tag": "一句话生成整套系统",
+  "intro": "免费开源的 AI 低代码平台，权限、多租户、工作流、报表、大屏、知识库开箱即用。AI Skills 能用一句话生成建表 SQL、前后端代码与菜单权限。"
+ },
+ "xushengfeng/eSearch": {
+  "tag": "截图之后什么都能干",
+  "intro": "把截屏、离线 OCR、搜索翻译、以图搜图、贴图、录屏、万向滚动截屏与屏幕翻译塞进一个桌面工具，Windows、Linux、macOS 都支持。"
+ },
+ "pymumu/smartdns": {
+  "tag": "本地 DNS 挑最快 IP",
+  "intro": "一个本地 DNS 服务器，为每个域名挑出响应最快的 IP 以改善上网体验。支持 DoT、DoH、DoQ 加密查询，带缓存加速与分流域名规则。"
+ },
+ "jaywcjlove/linux-command": {
+  "tag": "600+ 命令速查手册",
+  "intro": "收录 600 多个 Linux 命令的手册与详解，配套一个没有任何广告的搜索网站，内容来自网络与网友补充，适合当日常速查表随手翻。"
+ },
+ "JoeanAmier/TikTokDownloader": {
+  "tag": "抖音作品下载与采集",
+  "intro": "抖音与 TikTok 的作品下载、数据采集工具，可批量抓账号作品与评论。Cookie 获取有专门教程，也能 Fork 后用 GitHub Actions 自动构建打包。"
+ },
+ "xifangczy/cat-catch": {
+  "tag": "浏览器资源嗅探",
+  "intro": "「猫抓」浏览器扩展：把当前页面加载过的媒体资源筛出来列给你，视频、音频、图片一目了然，需要时直接下载，装了就能用。"
+ },
+ "xfangfang/wiliwili": {
+  "tag": "掌机上的 B 站客户端",
+  "intro": "第三方 B 站客户端，覆盖 PC 全平台、PSVita、PS4、Xbox 与 Switch。触屏、鼠标、键盘、手柄都能操作，支持弹幕、直播、番剧与深浅主题。"
+ },
+ "elementalsouls/Claude-BugHunter": {
+  "tag": "把 Claude 变成挖洞研究员",
+  "intro": "给 Claude Code 装的一套技能包：82 个技能、15 个斜杠命令、681 条已披露报告的模式，覆盖 24 类漏洞与企业身份、基础设施攻击矩阵。今日涨了 1700 多星。"
+ },
+ "obra/superpowers": {
+  "tag": "给编码 Agent 的开发方法论",
+  "intro": "一套建立在可组合技能之上的软件开发方法论：Agent 一开工不会直接写代码，先退回来问清楚你到底要做什么，再按流程一步步推进。"
+ },
+ "HKUDS/CLI-Anything": {
+  "tag": "让所有软件都能被 Agent 调用",
+  "intro": "港大的项目，目标是把各种软件的 CLI 封装成 AI Agent 可直接调用的接口。配套 CLI-Hub 可浏览、安装社区写好的 CLI，一条 pip 命令接入。"
+ },
+ "jingyaogong/minimind": {
+  "tag": "两小时训出 64M 小模型",
+  "intro": "从零训练一个 64M 参数的小语言模型，全流程两小时跑完，代码与数据全部开放。想把大模型的预训练、微调、推理每个环节亲手过一遍，从这里开始。"
+ },
+ "cursor/plugins": {
+  "tag": "Cursor 官方插件集",
+  "intro": "Cursor 的插件规范与官方插件仓库，每个插件是根目录下一个独立文件夹，自带 manifest，覆盖主流开发工具、框架与 SaaS 产品。"
+ },
+ "firecrawl/firecrawl": {
+  "tag": "给 Agent 喂网页数据",
+  "intro": "面向 Agent 的知识基础设施：搜索、抓取并接入 550 多个数据源，统一成一套 API。仓库包含本地版、自托管服务端与各语言 SDK。"
+ },
+ "nginx/nginx": {
+  "tag": "NGINX 官方源码库",
+  "intro": "NGINX 官方开源仓库。这个把 Web 服务器、负载均衡、反向代理、API 网关与内容缓存做在一起的老牌软件，至今仍是最主流的入口层选择。"
+ },
+ "openvinotoolkit/openvino": {
+  "tag": "优化并部署推理",
+  "intro": "Intel 主导的开源工具包，用于优化和部署深度学习推理：把训练好的模型转换后跑在 CPU、集成显卡与各类加速器上，附速查表与特性清单。"
+ },
+ "cathrynlavery/diagram-design": {
+  "tag": "不套模板的图表设计",
+  "intro": "给编码 Agent 用的图表技能：输出单个自包含的 HTML + SVG 文件，52 种图型，按你的品牌配色。作者态度明确——不要阴影，也不要 Mermaid 那种千篇一律。"
+ },
+ "mvanhorn/last30days-skill": {
+  "tag": "按点赞数排序的搜索引擎",
+  "intro": "一个 Agent 技能：跨 Reddit、X、YouTube、HN、Polymarket 与全网检索近 30 天的内容，再按点赞、喜欢与真金白银下注的金额排序，写成有依据的综述。"
+ },
+ "google-labs-code/stitch-skills": {
+  "tag": "Stitch 的设计技能库",
+  "intro": "Google Stitch 的 Agent 技能与插件集合，遵循 Agent Skills 开放标准，可在 Codex、Antigravity、Gemini CLI、Claude Code、Cursor 等编码 Agent 里直接用。"
+ },
+ "mjmirza/app-store-compliance": {
+  "tag": "上架前先自查一遍",
+  "intro": "App Store 与 Google Play 的过审手册：124 条被拒模式与对应改法、隐私清单与数据安全自查、112 个合规截止日，另附给 Agent 用的技能。"
+ },
+ "Tracer-Cloud/opensre": {
+  "tag": "CI/CD 可靠性 Agent",
+  "intro": "开源的 CI/CD 可靠性 Agent：流水线出问题时介入排查，把失败日志、变更与依赖串起来定位原因，减少人工翻日志的时间。"
+ },
+ "toeverything/AFFiNE": {
+  "tag": "文档白板二合一",
+  "intro": "把文档、白板与数据库融进一个页面的知识库，本地优先、开源可自托管，定位是 Notion 与 Miro 之外的第三种选择。"
+ },
+ "XiaoYouChR/Ghost-Downloader-3": {
+  "tag": "什么协议都能下",
+  "intro": "一个几乎覆盖所有下载协议的下载器，支持 Windows、macOS、Linux 与 Android，带 Feature Packs 插件生态。最初只是给 B 站 UP 主整理素材的小工具。"
+ },
+ "zhouxiaoka/autoclip": {
+  "tag": "一个链接一键出片",
+  "intro": "开源 AI 视频剪辑桌面工具：贴一个链接、选好平台，长视频自动切成短视频并生成字幕、封面与发布文案，适配抖音、小红书、TikTok、Reels 与 Shorts。"
+ }
+}
