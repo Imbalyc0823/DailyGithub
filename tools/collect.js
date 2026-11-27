@@ -13,6 +13,23 @@
 var fs = require("fs");
 var path = require("path");
 var https = require("https");
+var dns = require("dns");
+
+/* 本机 DNS 把 raw.githubusercontent.com 解析成 :: / 0.0.0.0（污染），
+   而同一 CDN 段的 IP 可直连。这里对这一个域名做固定 IP 解析，其余走系统 DNS。 */
+var RAW_HOST = "raw.githubusercontent.com";
+var RAW_IPS = ["185.199.111.133", "185.199.108.133", "185.199.109.133", "185.199.110.133"];
+var rawIpIdx = 0;
+
+function lookup(hostname, opts, cb) {
+  if (typeof opts === "function") { cb = opts; opts = {}; }
+  if (hostname === RAW_HOST) {
+    var ip = RAW_IPS[rawIpIdx++ % RAW_IPS.length];
+    if (opts && opts.all) return cb(null, [{ address: ip, family: 4 }]);
+    return cb(null, ip, 4);
+  }
+  return dns.lookup(hostname, opts, cb);
+}
 
 var ROOT = path.resolve(__dirname, "..");
 var CACHE = path.join(ROOT, "tools", ".cache");
@@ -37,7 +54,8 @@ function get(url, opts) {
       var req = https.get(url, {
         headers: { "User-Agent": UA, "Accept": opts.accept || "*/*" },
         rejectUnauthorized: false,
-        timeout: 30000
+        timeout: 20000,
+        lookup: lookup
       }, function (res) {
         if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location && tries < 4) {
           tries++;
@@ -195,7 +213,19 @@ async function main() {
   var result = { date: dateStr, collectedAt: null, boards: {} };
   var seen = {};
 
+  /* 当 github.com 页面直连不通时，可先用别的通道（WebFetch 等）把两个榜单落成
+     { daily_zh: [{owner,name,desc,lang,stars,today}], daily_global: [...] }，
+     再用 --boards=<file> 让本脚本只负责 README / 配图。 */
+  var boardsFile = (process.argv.find(function (a) { return a.indexOf("--boards=") === 0; }) || "").split("=")[1];
+
   for (var b of boards) {
+    if (boardsFile) {
+      var manual = JSON.parse(fs.readFileSync(boardsFile, "utf8"))[b.key] || [];
+      result.boards[b.key] = { url: b.url, since: b.since, lang: b.lang, list: manual };
+      process.stderr.write("→ " + b.key + " ... " + manual.length + " repos (本地榜单文件)\n");
+      manual.forEach(function (x) { seen[x.owner + "/" + x.name] = true; });
+      continue;
+    }
     process.stderr.write("→ " + b.key + " ... ");
     var r = await get(b.url);
     var list = parseTrending(r.body.toString("utf8"));

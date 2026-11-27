@@ -31,6 +31,7 @@ node tools/build-report.js <date>     # 导出日报 + 周报 Markdown
 ```
 
 - `collect.js` 支持 `--only=daily|weekly` 与 `--reuse-detail`（复用已抓到的 README/配图缓存，只重解析榜单）。
+- `collect.js` 另有 `--boards=<file>`：当 `github.com` 页面直连不通时，先用别的通道（如 WebFetch）把两个榜单落成 `{ daily_zh: [...], daily_global: [...] }`，再交给脚本只做 README 与配图。脚本对 `raw.githubusercontent.com` 做了固定 IP 解析（本机 DNS 会把它解析成 `0.0.0.0`）。
 - `build-data.js` 的数字全部取自采集结果，文案取自 `tools/copy-<date>.json`；同日同名仓库若历史数据已有导读，会自动复用。
 - 最后在 `index.html` 底部按日期顺序补一行 `<script src="assets/js/data/YYYY-MM-DD.js"></script>`。
 
