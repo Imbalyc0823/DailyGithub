@@ -35,6 +35,9 @@ async function main() {
   await sleep(2500);
   await send("Runtime.evaluate", { expression: "var s=document.createElement('style');s.textContent='.reveal{opacity:1!important;transform:none!important}';document.head.appendChild(s);window.scrollTo(0," + Y + ");" });
   await sleep(1200);
+  /* 图片/字体加载后文档可能变长，首次 scrollTo 会被 clamp，这里再滚一次 */
+  await send("Runtime.evaluate", { expression: "window.scrollTo(0," + Y + ");" });
+  await sleep(600);
   var m = await send("Runtime.evaluate", { expression: "JSON.stringify({h:document.documentElement.scrollHeight,y:window.scrollY})", returnByValue: true });
   console.error("metrics " + m.result.result.value);
   var shot = await send("Page.captureScreenshot", { format: "png" });
